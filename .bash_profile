@@ -17,6 +17,9 @@ export PATH=$PATH:$HOME/bin:/var/lib/gems/1.8/bin
 export PATH=$PATH:$HOME/bin:/Users/mondokmj/.rvm/gems/ruby-1.9.2-p136@ezlaw
 export PATH=$PATH:$HOME/bin:/Users/mondokmj/.rvm/gems/ruby-1.9.2-p136
 
+alias mine="open -a 'RubyMine 3.0.1.app'"
+alias ls='ls -lh'
+alias code='cd ~/Code/'
 ##
 # Your previous /Users/mondokmj/.bash_profile file was backed up as /Users/mondokmj/.bash_profile.macports-saved_2010-12-15_at_11:21:09
 ##
