@@ -40,4 +40,6 @@ export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
 
 export PATH=~/bin:$PATH
 
+[[ -f ~/.localrc ]] && . ~/.localrc
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
