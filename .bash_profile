@@ -13,13 +13,15 @@ export PATH
 PATH="/usr/local/mysql/bin:${PATH}"
 export PATH
 
+PATH="/Users/mmondok/Code/hadoop-0.20.203.0/bin:${PATH}"
+export PATH
+
 export PATH=$PATH:$HOME/bin:/var/lib/gems/1.8/bin
 export PATH=$PATH:$HOME/bin:/Users/mondokmj/.rvm/gems/ruby-1.9.2-p136@ezlaw
 export PATH=$PATH:$HOME/bin:/Users/mondokmj/.rvm/gems/ruby-1.9.2-p136
-
-alias mine="open -a 'RubyMine 3.0.1.app'"
-alias ls='ls -lh'
-alias code='cd ~/Code/'
+export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/opt/local/lib/postgresql90/bin
+export CASSANDRA_VERSION=1.0
+export HADOOP_HOME=/Users/mmondok/Code/hadoop-0.20.203.0
 ##
 # Your previous /Users/mondokmj/.bash_profile file was backed up as /Users/mondokmj/.bash_profile.macports-saved_2010-12-15_at_11:21:09
 ##
@@ -27,4 +29,5 @@ alias code='cd ~/Code/'
 # MacPorts Installer addition on 2010-12-15_at_11:21:09: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
+
 source $HOME/.bashrc

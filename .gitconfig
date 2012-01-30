@@ -8,6 +8,7 @@
   lg = log -p
   ls = ls-files
   gr = grep -n
+  c = commit -a -m
 [color]
   ui = auto
 [color "branch"]
@@ -32,7 +33,10 @@
 [core]
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	editor = nano
+	quotepath = false
   
 [user]
 	name = Matt Mondok
 	email = matt.mondok@gmail.com
+[gui]
+	recentrepo = /Users/mmondok/Documents/Code/ezlaw

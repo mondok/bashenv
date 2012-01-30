@@ -1,7 +1,7 @@
 # Global Declarations
 export ENV=$HOME/.bashrc
 export SHELL=/bin/bash
-export EDITOR="nano"
+export EDITOR="$HOME/bin/subl -w"
 
 export LS_OPTIONS='--color=auto'
 export CLICOLOR='Yes'
@@ -21,8 +21,9 @@ push_path(){
 	fi
 }
 
-push_path /usr/local/bin
 push_path $HOME/bin
+push_path /usr/local/bin
+
 
 # Call this to rerender the prompt after changing the $PROMPT_* variables below
 update_prompt(){
@@ -47,3 +48,5 @@ fi
 
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
+
+source $HOME/.mybashrc
