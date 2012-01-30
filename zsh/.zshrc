@@ -39,3 +39,5 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
 export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
 
 export PATH=~/bin:$PATH
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
