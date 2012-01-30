@@ -10,7 +10,7 @@
   gr = grep -n
   c = commit -a -m
 [color]
-  ui = auto
+	ui = always
 [color "branch"]
   current = yellow reverse
   local = yellow
