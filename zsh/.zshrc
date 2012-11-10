@@ -43,3 +43,13 @@ export PATH=~/bin:$PATH
 [[ -f ~/.localrc ]] && . ~/.localrc
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+ssh-add ~/.ssh/id_rsa &>/dev/null
+
+alias chromegap="open -a /Applications/Google\ Chrome.app  --args --disable-web-security"
+
+alias fuse="/usr/local/share/npm/lib/node_modules/fuse/bin/fuse.js"
+
+PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+
